@@ -40,7 +40,7 @@ header ul{
 header ul li{
     float: left;
     height: 16px;
-    padding: 27px 20px;
+    margin: 27px 20px;
     font-size: 16px;
     box-sizing: content-box;
 }
