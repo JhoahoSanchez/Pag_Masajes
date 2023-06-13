@@ -158,12 +158,16 @@ section div img{
 }
 .div-plan{
     /*display: table-cell;*/
-    display: inline-block;
-    top: 200px;
-    height: 330px;
-    border: #FFFF00 solid 1px;
+    display: inline-table;
+    position: relative;
+    top: 100px;
+    height: 470px;
+    width: 260px;
+    margin: 0px 50px;
 }
 .outer-circle{
+    display: inline-block;
+    align-self: center;
     height: 255px;
     width: 255px;
     border-radius: 50%;
@@ -183,4 +187,69 @@ section div img{
 .plan-img{
     height: 120px;
     width: auto;
+}
+.plan-title{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.plan-btn{
+    width: 280px;
+    height: 50px;
+    background: #A3A656;
+    border: none;
+    border-radius: 35px;
+    color: #FFFFFF;
+}
+.plan-btn:hover{
+    color: #384001;
+}
+.plan-list{
+    display: block;
+    transform: translate(50px, 20px);
+    text-align: left;
+}
+section div ul li{
+    font-size: 14px;
+}
+
+/*footer*/
+footer{
+    height: 97px;
+    background-color: #384001;
+    color: #A3A656;
+}
+.div-footer{
+    position: relative;
+    vertical-align: top;
+    text-align: center;
+}
+footer div ul{
+    list-style-type: none;
+    padding-left: 50px;
+    /*font-size: 16px;*/
+    align-items: center;
+}
+footer div ul li{
+    float: left;
+    height: 16px;
+    margin: 40.5px 30px;
+    font-size: 16px;
+    box-sizing: content-box;
+}
+footer ul li:hover{
+    color: #FFFF00;
+}
+.div-redes{
+    float: right;
+}
+.footer-redes{
+    display: inline-block;
+    transform: translateY(18px);
+}
+.footer-redes-img{
+    vertical-align: middle;
+    position: relative;
+    top: 14px;
+    margin: 12px 15px;
 }
