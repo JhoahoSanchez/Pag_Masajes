@@ -61,7 +61,7 @@ header span{
 #main-section{
     
     background-image: url(/images/main.png);
-    background-size: auto;
+    background-size: cover;
     height: 575px;
 }
 /*Main*/
